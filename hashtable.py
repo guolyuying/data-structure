@@ -59,7 +59,7 @@ class HashTable:
                     previous.next = current.next    # point the previous node to the node after the current node (i.e. skip the current node). Now the current node is just floating in the space and there's essentially no way to keep track of it, so it can be considered deleted.
                     self.size -= 1
                     return
-                previous = previous.next    # can i exchange these two lines?
+                previous = previous.next  
                 current = current.next
         print(key, "doesn't exist in hash table")
 
