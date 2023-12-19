@@ -33,8 +33,3 @@ p1.goblin_owned = g1 # p1 owns g1
 p2.goblin_owned = g2 # p2 owns g2
 
 p1.goblin_owned.introduce_self()
-exchange_goblins()
-p1.goblin_owned.introduce_self()
-g1.looking_at.introduce_self()
-look_at_owner()
-print(g1.looking_at.is_sitting)
